@@ -1,6 +1,6 @@
 # Activity Logger
 
-## Installation
+## Deployment
 -- *requirements: python3.5+*
 ##### Follow the below steps to install and run the project
 
@@ -11,10 +11,10 @@ $ python -m venv .
 $ source bin/activate
 $ cd activity_logger
 $ pip install -r requirements.txt  # install requirements
-# make migrations and apply them
+#  make migrations and apply them
 $ python manage.py makemigrations
 $ python manage.py migrate
-# use custom management command to generate dummy data
+#  use custom management command to generate dummy data
 $ python manage.py add_dummy_data
 # start the server
 $ python manage.py runserver
